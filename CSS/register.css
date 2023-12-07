@@ -1,0 +1,99 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f6f8fa;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.row.h-100 {
+    height: 100%;
+}
+
+.left-side {
+    background-image: url('https://f.hellowork.com/blogdumoderateur/2019/11/twitter-logo.jpg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    padding: 0;
+}
+
+.right-side {
+    background-color: #000000;
+    padding: 0 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1da1f2;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+    width: 100%;
+    margin: auto;
+}
+
+.img-fluid {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #657786;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #b7b7b7;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #14171a;
+}
+
+input[type="file"] {
+    display: block;
+    font-size: 16px;
+    color: #14171a;
+    margin-bottom: 5px;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #1da1f2;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #1a8fd2;
+}
+
+input[type="submit"]:active {
+    background-color: #0f6ea7;
+}
